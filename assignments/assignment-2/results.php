@@ -58,25 +58,30 @@
         </div>
         <div class="row" style="margin-bottom: 100px">
             <div class="large-12 columns">
-                <h1 style="padding-bottom: 50px">Search results for: '<?php echo $title ?>'</h1>
-                <table>
-                    <thead>
-                    <tr>
-                        <th>DVD Title</th>
-                        <th>Rating</th>
-                        <th>Genre</th>
-                        <th>Format</th>
-                    </tr>
-                    </thead>
-                    <?php foreach($dvds as $dvd) : ?>
+                <?php if (empty($dvds)) : ?>
+                    <h1 style="padding-bottom: 50px">Sorry, no results were found for: '<?php echo $title ?>'</h1>
+                <?php endif ?>
+                <?php if (!empty($dvds)) : ?>
+                    <h1 style="padding-bottom: 50px">Search results for: '<?php echo $title ?>'</h1>
+                    <table>
+                        <thead>
                         <tr>
-                            <td><?php echo $dvd->title ?></td>
-                            <td><?php echo $dvd->rating ?></td>
-                            <td><?php echo $dvd->genre ?></td>
-                            <td><?php echo $dvd->format ?></td>
+                            <th>DVD Title</th>
+                            <th>Rating</th>
+                            <th>Genre</th>
+                            <th>Format</th>
                         </tr>
-                    <?php endforeach ?>
-                </table>
+                        </thead>
+                        <?php foreach($dvds as $dvd) : ?>
+                            <tr>
+                                <td><?php echo $dvd->title ?></td>
+                                <td><?php echo $dvd->rating ?></td>
+                                <td><?php echo $dvd->genre ?></td>
+                                <td><?php echo $dvd->format ?></td>
+                            </tr>
+                        <?php endforeach ?>
+                    </table>
+                <?php endif ?>
             </div>
         </div>
     </body>

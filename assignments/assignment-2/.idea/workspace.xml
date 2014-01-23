@@ -37,13 +37,14 @@
       <file leaf-file-name="results.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="6" selection-start="743" selection-end="743" vertical-scroll-proportion="0.54545456" vertical-offset="0" max-vertical-offset="1320">
+            <state line="83" column="30" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.8806818" vertical-offset="470" max-vertical-offset="1395">
               <folding>
                 <element signature="e#104#210#0" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1390452162000" expanded="true" signature="450:736" placeholder="SELECT title..dvd_titles..." />
+                <element signature="n#style#0;n#h1#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1390453011000" expanded="true" signature="450:736" placeholder="SELECT title..dvd_titles..." />
               </folding>
             </state>
           </provider>
@@ -201,7 +202,8 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1390452162000" expanded="true" signature="450:736" placeholder="SELECT title..dvd_titles..." />
+            <element signature="n#style#0;n#h1#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1390453011000" expanded="true" signature="450:736" placeholder="SELECT title..dvd_titles..." />
           </folding>
         </state>
       </provider>
@@ -223,7 +225,8 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1390452162000" expanded="true" signature="450:736" placeholder="SELECT title..dvd_titles..." />
+            <element signature="n#style#0;n#h1#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1390453011000" expanded="true" signature="450:736" placeholder="SELECT title..dvd_titles..." />
           </folding>
         </state>
       </provider>
@@ -245,7 +248,8 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1390452162000" expanded="true" signature="450:736" placeholder="SELECT title..dvd_titles..." />
+            <element signature="n#style#0;n#h1#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1390453011000" expanded="true" signature="450:736" placeholder="SELECT title..dvd_titles..." />
           </folding>
         </state>
       </provider>
@@ -261,13 +265,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="6" selection-start="743" selection-end="743" vertical-scroll-proportion="0.54545456" vertical-offset="0" max-vertical-offset="1320">
+        <state line="83" column="30" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.8806818" vertical-offset="470" max-vertical-offset="1395">
           <folding>
             <element signature="e#104#210#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1390452162000" expanded="true" signature="450:736" placeholder="SELECT title..dvd_titles..." />
+            <element signature="n#style#0;n#h1#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1390453011000" expanded="true" signature="450:736" placeholder="SELECT title..dvd_titles..." />
           </folding>
         </state>
       </provider>
