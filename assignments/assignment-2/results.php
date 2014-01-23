@@ -1,3 +1,6 @@
+<head>
+    <link rel="stylesheet" href="css/foundation.css" />
+</head>
 <?php
 /**
  * Created by PhpStorm.
@@ -25,7 +28,7 @@ ON dvd_titles.genre_id = genres.id
 INNER JOIN formats
 ON dvd_titles.format_id = formats.id
 WHERE title LIKE ?
-ORDER BY rating DESC
+ORDER BY title
 ";
 
 $statement = $pdo->prepare($sql);
@@ -35,16 +38,44 @@ $statement->bindParam(1, $like);
 $statement->execute();
 $dvds = $statement->fetchAll(PDO::FETCH_OBJ);
 
-//var_dump($songs);
+//var_dump($dvds);
 ?>
-
-
-<?php foreach($dvds as $dvd) : ?>
-    <h3>
-        <?php echo $dvd->title ?>
-        by
-        <?php echo $dvd->rating ?>
-    </h3>
-    <p>Genre: <?php echo $dvd->genre ?></p>
-    <p><?php echo $dvd->format ?></p>
-<?php endforeach ?>
+<body>
+    <div class="row">
+        <div class="large-6 columns" style="padding-top:50px">
+            <form method="get" action="results.php">
+                <div class="row collapse">
+                    <div class="small-10 columns">
+                        <input type="text" placeholder="Search by DVD title" name="title">
+                    </div>
+                    <div class="small-2 columns">
+                        <input type="submit" class="button postfix" value="Search">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row" style="margin-bottom: 100px">
+        <div class="large-12 columns">
+            <h1 style="padding-bottom: 50px">Search results for: '<?php echo $title ?>'</h1>
+            <table>
+                <thead>
+                <tr>
+                    <th>DVD Title</th>
+                    <th>Rating</th>
+                    <th>Genre</th>
+                    <th>Format</th>
+                </tr>
+                </thead>
+                <?php foreach($dvds as $dvd) : ?>
+                    <tr>
+                        <td><?php echo $dvd->title ?></td>
+                        <td><?php echo $dvd->rating ?></td>
+                        <td><?php echo $dvd->genre ?></td>
+                        <td><?php echo $dvd->format ?></td>
+                    </tr>
+                <?php endforeach ?>
+            </table>
+        </div>
+    </div>
+</body>
