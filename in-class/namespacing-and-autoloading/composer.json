@@ -1,0 +1,16 @@
+{
+    "require": {
+        "monolog/monolog": "1.7.0",
+        "symfony/http-kernel": "2.4.*@dev"
+    },
+
+    "autoload": {
+        "classmap": [
+            "Yelp",
+            "OpenTable"
+        ],
+        "psr-0": {
+            "Hunger": "./"
+        }
+    }
+}
